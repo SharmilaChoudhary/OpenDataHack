@@ -8,7 +8,7 @@ const Button: React.FC<{
   return (
     <button
       onClick={onClick}
-      className={`bg-blue-500 px-4 py-3 rounded-lg text-white ${
+      className={`bg-indigo-600 px-3 py-3 rounded-lg mr-2 my-2 text-white ${
         disabled ? 'opacity-50' : ''
       }`}
       disabled={disabled}
